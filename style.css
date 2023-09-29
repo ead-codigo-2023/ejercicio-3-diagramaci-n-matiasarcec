@@ -1,0 +1,98 @@
+body{
+    font-family:'Roboto Mono';
+    background-color:#3b3b3b;    
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(imagen/code.jpg)
+}
+
+header {
+    background-image: url(imagen/imagenn\ css.jpeg);
+    background-repeat: no-repeat;
+    background-size: 2500px;
+}
+
+
+h1{
+    width: 80px; 
+    height: 300px; 
+    flex-shrink: 4; 
+    color: #f1c40f; 
+    font-family:'Roboto Mono'; 
+    font-size: 90px; 
+    font-style: Bold; 
+    font-weight: 700; 
+    line-height: 90px;  
+}    
+
+h2{ 
+    width: 450.977px; 
+    height: 50px; 
+    flex-shrink: 0; 
+    color: #fdfefe; 
+    font-family:'Roboto Mono';
+    font-size: 30px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    letter-spacing: -1.2px; 
+    padding: 0%;
+    padding-top: 0%;
+    background-color: #0000007b;
+} 
+
+p{
+    color: #000000; 
+    font-family:'Roboto Mono';
+    font-style: Light;
+    font-weight: 300; 
+    font-size: 15px; 
+    margin-right: 50%;  
+}
+
+
+h3{
+    color: #fdfefe; 
+    font-family:'Roboto Mono';
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 25px; 
+    padding: 0%;
+    padding-top: 0%;
+    background-color: #0000007b;
+}
+
+a{  
+    color: #2d2d2d; 
+    font-family:'Roboto Mono';
+    font-style: Thin Italic;
+    font-weight: 100;
+    font-size: 15px; 
+    background-color: #f1c40f55;
+}
+
+.page-wrapper{
+background-color: #959595;
+padding: 1%;
+text-align: justify;
+}
+
+
+.sidebar .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.design-selection{
+    background-color: #999999;
+
+}
+
+.design-archives{
+    background-color: #999999;
+}
+
+.zen-resources{
+    background-color: #999999;
+}
